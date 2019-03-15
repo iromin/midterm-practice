@@ -1,3 +1,4 @@
+
 var app = angular.module('customersApp',['ngRoute']);
 app.config(function($routeProvider) {
   $routeProvider.when('/',
@@ -52,4 +53,5 @@ app.controller('HomeController', function($scope) {
       {"id": 2, "name":"Michelle", "total": 10.994},
       {"id": 3, "name":"Zed", "total": 10.99},
       {"id": 4, "name":"Tina", "total": 15.994}
-];
+    ];
+});
